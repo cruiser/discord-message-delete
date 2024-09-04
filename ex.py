@@ -11,7 +11,7 @@ print("* commands *")
 print("- !clear // deletes all messages in channel")
 print("- !clearallmessages // deletes all messages in all DMs")
 
-def owo(cmd):
+def win_console(cmd):
     subprocess.call(cmd, shell=True)
 
 @client.event
